@@ -2,7 +2,7 @@ file = open(r'input.txt', 'r')
 valuesList = []
 sumsList = []
 
-file.readline()
+#file.readline()
 
 for i in file:
     input = i

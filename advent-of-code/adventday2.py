@@ -20,7 +20,7 @@ total = 0
 
 def score(shape, outcome):
     global semitotal, total
-    #print(shape, outcome)
+    #print(shape, outcome)         <- debugging
     semitotal = shape[2] + outcome
     total = total + semitotal
 
@@ -29,8 +29,8 @@ for i in file:
     input = [*i]
     opponent.append(input[0])
     me.append(input[2])
-#print(opponent)
-#print(me)
+#print(opponent)  <- debugging
+#print(me)  <- debugging
 for i, value in enumerate(opponent):
 
     if (value in rock):
